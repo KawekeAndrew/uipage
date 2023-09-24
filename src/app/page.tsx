@@ -1,113 +1,538 @@
 import Image from 'next/image'
 
+
+
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+  return (  
+<html lang="en" className='htmls'>
+<head/>  
+<body>
+<div className="topContainer">
+<div className="mainContainer">
+
+        <div className=" header">
+           <Image 
+           src="/log.png"
+           alt=''
+           width={200}
+           height={300}
+           
+           />
+            <button className="gradient-button">Give us a call</button>
         </div>
-      </div>
+        
+        <div className="row expertStart">
+            <div className="col-6  col-sm-12 expertStart1">
+                 <div className="col expertStart11">
+                    <p className="consulting">Expert Startup Consulting </p>
+                    <p className="consulting">Consulting</p>
+                 </div>
+                 <div className="col expertStart12">
+                    <p className="unlock">Unlock Your Funding Potential with Tailored 
+                         Pitch Deck and Business Plan</p>
+                         <p className="unlock">
+                         Pitch Deck and Business Plan</p>
+                         
+                 </div>
+                 <button className="button">Give us a call</button>
+            </div>
+            <div className="col-6  col-sm-12 expertStart2">
+                <Image 
+                src="/numpic.png" 
+                 alt="" 
+                 className="img-fluid numImg"
+                 width={600} 
+                 height={200}
+                />
+            </div>
+        </div>
+       
+        </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+        <div className="another">
+          {/* services */}
+          <section className="serSce">
+
+             
+            <div className="services">
+            <p className="seriveHeader">Services</p>
+
+            </div>
+
+         <div className="row services2">
+      <div className="col-4 col-sm-12 services21">
+          <div className="listheader">
+            <Image
+            src="/iconservice.png"
+            alt=""
+            width={20}
+            height={20}
+            />
+             <h4 className="first">PITCH DECK</h4>
+             <Image
+            src="/num_one.png"
+            alt=""
+            width={20}
+            height={20}
+            />
+          </div>
+          <p className="serviceText">
+                    Pitch deck services typically offer a rarnge of
+services, including content creation, design, and
+presentation coaching. Content creation involves
+developinga compeling story that clearly
+Communicates the problem that the business is
+solving, the market opportunity, and the unique
+value proposition.
+
+                   </p>
+
+                   <button className="buttonServices">Read more</button>
+        </div>
+        <div className="col-4 col-sm-12 services22">
+        <div className="listheader">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+            src="/advisory.png"
+            alt=""
+            width={20}
+            height={20}
+            />
+          <h4 className="first">ADVISORY</h4>
+          <Image
+            src="/ser_num2.png"
+            alt=""
+            width={20}
+            height={20}
+            />
+        </div>
+        <p className="serviceText">
+                    Pitch deck services typically offer a rarnge of
+                    services, including content creation, design, and
+                    presentation coaching. Content creation involves
+                    developinga compeling story that clearly
+                    Communicates the problem that the business is
+                    solving, the market opportunity, and the unique
+                    value proposition.
+                    
+                    </p>
+                    <button className="buttonServices">Read more</button>
+        </div>
+
+       <div className="col-4 col-lg-4  services23">
+        <div className="listheader">
+        <Image
+            src="/advisory.png"
+            alt=""
+            width={20}
+            height={20}
+            />
+       <h4 className='first'>BUSINESS PLAN</h4>
+       <Image
+            src="/ser_num3.png"
+            alt=""
+            width={20}
+            height={20}
+            />
+        </div>
+
+        <p className="serviceText">
+                    Pitch deck services typically offer a rarnge of
+                    services, including content creation, design, and
+                    presentation coaching. Content creation involves
+                    developinga compeling story that clearly
+                    Communicates the problem that the business is
+                    solving, the market opportunity, and the unique
+                    value proposition.
+                    
+                    </p>
+                    <button className="buttonServices">Read more</button>
+       </div>
+         </div>
+         
+          </section>
+
+          <div className="Sponsor">
+            <div className="sponsor1">
+            <h1 className='text'>Our Corporate Sponsor</h1>
+                <p className="spornsortext">
+                   Pitch deck services typically offer a range of services,inlcuding
+                   <br/>content creation,design, and presentation coaching.
+                </p>
+
+            </div>
+            <div className="sponsor2">
+              <div className="row sponsorIcons1">
+                <div className="col-3 col-sm-12  fitcontent">
+
+            <Image
+            src="/1.png"
+            alt=""
+            width={30}
+            height={20}
+            className="sp_icon1"
+            />
+                </div>
+
+                <div className="col-3 col-sm-12  fitcontent">
+
+<Image
+src="/2.png"
+alt=""
+width={30}
+height={20}
+className="sp_icon1"
+/>
+    </div>
+    <div className="col-3 col-sm-12  fitcontent">
+
+<Image
+src="/3.png"
+alt=""
+width={30}
+height={20}
+className="sp_icon1"
+/>
+    </div>
+    <div className="col-3 col-sm-12  fitcontent">
+
+<Image
+src="/4.png"
+alt=""
+width={30}
+height={20}
+className="sp_icon1"
+/>
+    </div>
+
+              </div>
+
+ <div className="row sponsorIcons2">
+                <div className="col-3 col-sm-12  fitcontent">
+
+            <Image
+            src="/gapIcon.png"
+            alt=""
+            width={30}
+            height={20}
+            className="sp_icon1"
+            />
+                </div>
+
+                <div className="col-3 col-sm-12  fitcontent">
+
+<Image
+src="/5.png"
+alt=""
+width={30}
+height={20}
+className="sp_icon1"
+/>
+    </div>
+    <div className="col-3 col-sm-12  fitcontent">
+
+<Image
+src="/6.png"
+alt=""
+width={30}
+height={20}
+className="sp_icon1"
+/>
+    </div>
+    <div className="col-3 col-sm-12  fitcontent">
+
+<Image
+src="/gapIcon.png"
+alt=""
+width={30}
+height={20}
+className="sp_icon1"
+/>
+    </div>
+
+              </div>
+            </div>
+
+          </div>
+{/* webuild */}
+
+<section className="webuild_sec">
+<Image
+src="/left_img.png"
+alt=""
+width={70}
+height={10}
+className="left"
+/>
+
+  <div className="weBuild">
+ 
+  <div className="webuild1">
+  <h1 className='text'>We Build it Fast & Right</h1>
+   <p className="weBuildText">
+  TLVTech was a refreshing change from other vendors as they were fully in sync with our results and vision for the <br/>
+ future.Together we planned,executed and scaled our product.
+                </p>
+
+  </div>
+  <div className="row weBuild2">
+    <div className="col-4 col-sm-12 card1">
+    <p id="para">Maecenas non ante sit amet ex
+                    scelerisque facilisis. Sed at orci maximus,
+                    suscipit nunc, elementum arcu. the Fusce
+                    in aliquet purus. </p>
+      <div className="divlist">
+      <Image
+src="/c1.png"
+alt=""
+width={100}
+height={100}
+
+/>
+<p><b>Mr Jhon Smith</b></p>
+<p  id="para"> CEO of Omni Tech</p>
+<Image
+src="/s1.png"
+alt=""
+width={70}
+height={30}
+
+/>
+
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+    </div>
+    <div className="col-4 col-sm-12 card1 borderCard">
+    <p id="para">Maecenas non ante sit amet ex
+                    scelerisque facilisis. Sed at orci maximus,
+                    suscipit nunc, elementum arcu. the Fusce
+                    in aliquet purus. </p>
+      <div className="divlist">
+      <Image
+src="/c2.png"
+alt=""
+width={100}
+height={100}
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
+/>
+<p><b>Mr Jhon Smith</b></p>
+<p  id="para"> CEO of datasoft</p>
+<Image
+src="/s2.png"
+alt=""
+width={70}
+height={30}
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+/>
       </div>
-    </main>
-  )
+      
+
+    </div>
+    <div className="col-4 col-sm-12 card1 ">
+    <p id="para">Maecenas non ante sit amet ex
+                    scelerisque facilisis. Sed at orci maximus,
+                    suscipit nunc, elementum arcu. the Fusce
+                    in aliquet purus. </p>
+      <div className="divlist">
+      <Image
+src="/c3.png"
+alt=""
+width={100}
+height={100}
+
+/>
+<p><b>Mr Jhon Smith</b></p>
+<p  id="para"> CEO of datasoft</p>
+<Image
+src="/s3.png"
+alt=""
+width={70}
+height={30}
+
+/>
+      </div>
+      
+
+    </div>
+
+  </div>
+
+  </div>
+  <Image
+src="/right_img.png"
+alt=""
+width={70}
+height={10}
+className="left"
+/>
+
+</section>
+
+{/* boot div */}
+<div className="boost">
+            <div className="headBoost">
+                <h1>Looking to boost your </h1>
+                
+            </div>
+            <div className="boostpara">
+                <p className="para">
+                   TLVTech was a refreshing change from other vendors as they were fully in sync <br/>
+                   with our results and for the future. Together we planned 
+                </p>
+
+                <button className="gradient-button">Give us a call</button>
+            </div>
+        </div>
+
+        {/* get in touch */}
+
+        <div className=" getInTouch">
+            <h1>Get in Touch</h1>
+            <span>
+            <Image
+src="/getin_img.png"
+alt=""
+width={400}
+height={30}
+className="img"
+
+/>
+</span>
+  <p  id="para">93% of traffic begins with a query. Even with a high number of <br/>
+                searches being performed.</p>
+</div>
+
+{/* get in touch form */}
+<div className="formGetInTouch">
+<form action="submit">
+              <span>
+              <input type="text"  placeholder="Name"/>
+              <input type="email"  placeholder="E-Mail"/>
+              </span>
+
+              <input type="text"  placeholder="Your message" className='name'/>
+              <button className="gradient-form-button">Send</button>
+</form>
+{/* foollow div */}
+<div className="follow">
+<h2>Follow Us On</h2>
+
+<div className="iconsFooter_img">
+  <div className="fooImg">
+  <Image
+src="/twit"
+alt="Twitter"
+width={20}
+height={20}
+
+/>
+
+  </div>
+
+  <div className="fooImg">
+  <Image
+src="/insta.jpg"
+alt="Twitter"
+width={20}
+height={20}
+/>
+
+  </div>
+
+  <div className="fooImg">
+  <Image
+src="/face.jpg"
+alt="Twitter"
+width={20}
+height={20}
+
+/>
+
+  </div>
+
+
+</div>
+<h3 className='sign'>Sign Up for Newsletter</h3>
+
+</div>
+
+
+<div className="input_plus_btn">
+
+<input type="text" placeholder="Your Email Here" className="mail"/>
+<Image
+src="/arrow.jpg"
+alt="Twitter"
+width={40}
+height={40}
+
+/>
+
+</div>
+  </div>
+
+
+  {/* footer */}
+
+  <div className=" footerBottom">
+            <ul className=" footerlst">
+                <li className="">About Us</li>
+                <li className="">Disclaimer</li>
+                <li className="">Privacy policy</li>
+                <li className="">Affiliate policy</li>
+            </ul>
+
+           <div className="line">
+            
+           </div>
+          </div>
+
+          {/* copyright */}
+          <div className="copyright">
+            <ul className="footerlst">
+                <li>Bangadesh Office Address:</li>
+                <li>House #449,Road #31, New DOHS Mohakhali, Dhaka-1206</li>
+               
+            </ul>
+
+            <p>copyright@blogsite</p>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       </div>
+
+</body>
+</html>
+
+);
+
 }
+  
